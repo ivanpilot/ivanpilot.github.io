@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Introduction to the creation of a Ruby Gem"
-date:   2016-06-10 14:08:17 +0000
+date:   2016-06-10 10:08:18 -0400
 ---
 
+
+https://github.com/ivanpilot/country_profile_cli_gem
 
 Ladies, Gents,
 
