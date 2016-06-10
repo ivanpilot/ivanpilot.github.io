@@ -37,6 +37,6 @@ https://github.com/ivanpilot/country_profile_cli_gem
 
 With the above link, you can access the README.md file for more thorough indication regarding the Gem itself and you can also get a more technical understanding of the methods and classes that have created and used by looking at each of the files saved under the 'lib' folder.
 
-Although not very complicated from a technical point of view, the creation of this gem took me some time, tests and trials until it worked well. I hope you will enjoy it and if you have any comments and / or wish to share anything, please feel free to contact me. My contact details are in the README.md file.
+Although not very complicated from a technical point of view, the creation of this Gem took me some time, tests and trials until it worked well. I hope you will enjoy it and if you have any comments and / or wish to share anything, please feel free to contact me. My contact details are in the README.md file.
 
 Sincerely,
