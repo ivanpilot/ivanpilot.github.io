@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "**Why learning coding?**"
-date:   2016-06-10 11:55:11 +0000
+title:  "Why learning coding?"
+date:   2016-06-10 07:55:11 -0400
 ---
 
 
