@@ -26,7 +26,7 @@ The detailed working process of the Gem consists of the following steps:
 
 1. The user provides a country name
 2. A method verifies if the country belongs to the list of available countries and returns the related country's isocode if this is true
-3. A method composes 2 different url types based on the country's isocode and desired indicators and automatically retrieves the data for 2014 under a JSON format
+3. Some methods compose 2 different url types based on the country's isocode and desired indicators and automatically retrieves the data for 2014 under a JSON format
 4. The object retrieved is parsed and analysed to identify the right value for the indicator required. This is repeated as many times as the number of indicators.
 5. Indicators and their related value are stored into a hash
 6. For each key of the hash, the value is appropriately converted to the right unit format
