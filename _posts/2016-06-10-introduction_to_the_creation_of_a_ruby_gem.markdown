@@ -9,7 +9,7 @@ https://github.com/ivanpilot/country_profile_cli_gem
 
 Ladies, Gents,
 
-I recently created my first Ruby gem. It is more for a training purpose than for anything else at this stage but the seed will grow and in the near furture I will be able to share better and more useful and advanced gems for the benefit of all.
+I recently created my first Ruby Gem. It is more for a training purpose than for anything else at this stage but the seed will grow and in the near furture I will be able to share better and more useful and advanced gems for the benefit of all.
 
 **The Gem provides a short profile with key indicators including population, density of population, labor force, GDP, GDP growth, etc. for almost every country in the world.**
 
