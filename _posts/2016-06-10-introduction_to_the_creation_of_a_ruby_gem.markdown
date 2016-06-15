@@ -24,7 +24,7 @@ Once the gem installed and running, the user can choose to display the list of c
 
 All data and information are sourced from the World Bank database. All data showed for country profile are dated 2014. 2014 are the most up to date data available for now.
 
-For more info on the Gem, you can consult the NOTES.md file or read the various files composing the gem at https://github.com/ivanpilot/country_profile_cli_gem. You can access the methods and classes that have been created and used by looking at the NOTES.md file and each of the files saved under the 'lib' folder.
+For more info on the Gem, you can consult the NOTES.md file or read the various files composing the gem at https://github.com/ivanpilot/country_profile_cli_gem. You can access the methods and classes that have been created and used by looking at each of the files saved under the 'lib' folder.
 
 Although not very complicated from a technical point of view, the creation of this Gem took me some time, tests and trials until it worked well. I hope you will enjoy it and if you have any comments and / or wish to share anything, please feel free to contact me. My contact details are in the README.md file.
 
