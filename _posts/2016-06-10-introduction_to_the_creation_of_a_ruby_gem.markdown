@@ -11,31 +11,22 @@ Ladies, Gents,
 
 I recently created my first Ruby Gem. It is more for a training purpose than for anything else at this stage but the seed will grow and in the near furture I will be able to share better and more useful and advanced gems for the benefit of all.
 
-**The Gem provides a short profile with key indicators including population, density of population, labor force, GDP, GDP growth, etc. for almost every country in the world.**
+**The Gem provides a summary country profile with key indicators including population, density of population, labor force, GDP, GDP growth, etc. for almost every country in the world. It also provides for each indicator shown in the country profile, the evolution of the indicator over time up to 40 years back in time**
 
-The data are sourced from the World Bank database, are free of access at the time I am writing this post, and provide information for 2014 only but it could be extended to more recent data if available and also to time series (to the extent it is available and relevant for some indicators) if you wish so, although this later option will require to implement an entire new functionality to access time series. You are free to do so if you wish and you could use my Gem as a starting base to create your own.
+The data are sourced from the World Bank database, are free of access at the time I am writing this post. The gem allows you to add any indicator you wish provided it is an indicator followed by the World Bank and that you know the code name of the indicator (you can search it on the world bank website). In case you want to add an indicator, you only need to modify the output.rb file and/or the constants.rb file. You are free to do so if you wish and you could use my Gem as a starting base to create your own.
 
 To construct this Gem, I scrapped an html page and used the World Bank free API:
 
-1. The scrapping part consist of retrieving data programatically. It scrapes a World Bank's website page displaying a table which links every country name or zone (eg. European Union) to a 3-letter alpha isocode (eg. 'BRA' for Brazil). This entire table of country names and their corresponding isocode is stored into a hash whose keys and values are respectively the former and the latter. This allows the user to enter a country name rather than the country isocode which might not be known directly by the user.
+1. The scrapping part consist of retrieving data programatically. It scrapes a World Bank's webpage displaying a table which links every country name or zone (eg. European Union) to a 3-letter alpha isocode (eg. 'BRA' for Brazil). This entire table of country names and their corresponding isocode is stored into a hash whose keys and values are respectively the former and the latter. This allows the user to enter a country name rather than the country isocode which might not be known directly by the user.
 2. The World Bank provides an API which allows to retrieve data for a specific country using its isocode. The data could be either for a given year or for a given period of time and are available under 3 different formats. I retained the JSON format.
 
-When using the Gem, the user has the option to type a specific country name, the word 'list' to obtain a comprehensive list of all the countries available in the World Bank database or the word 'exit' to exit the program.
+Once the gem installed and running, the user can choose to display the list of countries which are available, to retrieve indicators for a specific country or zone (eg. European Union) by typing the name of the desired country (please make sure you type the name as it is showed in the list of countries) or to exit the program. If the user chooses to display the profile of a country, he can then, for this same country, obtains a history of a specific indicator over a period of time up to 40 years back in time. To display the historical value of a specific indicator, the user must select the desired indicator by providing its number (range from 1 to 9 as indicated in the country profile) and indicate over how many years back in time he would want to go back. This will display the evolution of this specific indicator over the period of time he chose. Once displayed, he can either choose to display the evolution of a new indicator over a new period of time or to exit to come back to the main menu.
 
-The detailed working process of the Gem consists of the following steps:
+All data and information are sourced from the World Bank database. All data showed for country profile are dated 2014. 2014 are the most up to date data available for now.
 
-1. The user provides a country name
-2. A method verifies if the country belongs to the list of available countries and returns the related country's isocode if this is true
-3. Some methods compose 2 different url types based on the country's isocode and desired indicators and automatically retrieve the data for 2014 under a JSON format
-4. The object retrieved is parsed and analysed to identify the right value for the indicator required. This is repeated as many times as the number of indicators.
-5. Indicators and their related values are stored into a hash
-6. For each key of the hash, the value is appropriately converted to the right unit format
-7. A method creates an output to be printed on the screen that shows for each indicator its value if available under the right format
+For more info on the Gem, you can consult the NOTES.md file or read the various files composing the gem at https://github.com/ivanpilot/country_profile_cli_gem
 
-Should you wish to have more information on this Gem, visit the link below:
-https://github.com/ivanpilot/country_profile_cli_gem
-
-With the above link, you can access the README.md file for more thorough indication regarding the Gem itself and you can also get a more technical understanding of the methods and classes that have created and used by looking at each of the files saved under the 'lib' folder.
+With the above link, you can access the README.md file for more thorough indication regarding the Gem itself and you can also get a more technical understanding of the methods and classes that have been created and used by looking at the NOTES.md file and each of the files saved under the 'lib' folder.
 
 Although not very complicated from a technical point of view, the creation of this Gem took me some time, tests and trials until it worked well. I hope you will enjoy it and if you have any comments and / or wish to share anything, please feel free to contact me. My contact details are in the README.md file.
 
