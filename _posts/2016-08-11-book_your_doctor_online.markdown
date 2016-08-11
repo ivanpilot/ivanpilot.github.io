@@ -49,7 +49,7 @@ Pretty straigth forward, we created a login session which is nothing else than a
 
 **Conclusion**
 
-This sinatra application is a example of a web application with complex relationships between various table and classes. In order to fully understand the code and the explanation above, you can have a look at my repo on github by clicking on the following link: https://github.com/ivanpilot/doctorfinder
+This sinatra application is a example of a web application with complex relationships between various table and classes. In order to fully understand the code and the explanation above, you can have a look at my repo on github by clicking on the following link: [https://github.com/ivanpilot/doctorfinder](http://)
 
 If you  have any suggestion or would like any additional information, please feel free to reach out to me at ivanpilot@gmail.com.
 
