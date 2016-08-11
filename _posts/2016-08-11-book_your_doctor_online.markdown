@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Book Your Doctor Online!"
-date:   2016-08-11 20:27:55 +0000
+date:   2016-08-11 16:27:55 -0400
 ---
 
 
-Ladies and Gentlemen,
+Ladies, Gents,
 
 This post is about how to create a sinatra web application with complex relationship tables, different user categories and a login process. We will take the example of an application which allows users to book an appointment online with a doctor either by name or by specialty.
 
@@ -52,3 +52,5 @@ Pretty straigth forward, we created a login session which is nothing else than a
 This sinatra application is a example of a web application with complex relationships between various table and classes. In order to fully understand the code and the explanation above, you can have a look at my repo on github by clicking on the following link: https://github.com/ivanpilot/doctorfinder
 
 If you  have any suggestion or would like any additional information, please feel free to reach out to me at ivanpilot@gmail.com.
+
+Sincerely,
