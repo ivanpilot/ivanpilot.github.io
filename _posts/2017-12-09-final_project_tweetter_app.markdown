@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Final project: Tweetter app"
-date:       2017-12-09 12:07:36 +0000
+date:       2017-12-09 07:07:37 -0500
 permalink:  final_project_tweetter_app
 ---
 
